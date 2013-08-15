@@ -11,7 +11,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
 
 
 ## 3 Making Operators Work on Custom Classes
-### 3.1 Comparison magic methods
+### 3.1 Comparison Magic Methods
 
     __cmp__(self, other)  # Removed in Python 3.
     __eq__(self, other)
@@ -23,7 +23,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
 
 
 ### 3.2 Numeric Magic Methods
-#### 3.2.1 Unary operators and functions
+#### 3.2.1 Unary Operators and Functions
 
     __pos__(self)
     __neg__(self)
@@ -34,7 +34,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __ceil__(self)
     __trunc__(self)
     
-### 3.3 Normal arithmetic operators
+### 3.3 Normal Arithmetic Operators
 
     __add__(self, other)
     __sub__(self, other)
@@ -51,7 +51,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __or__(self, other)
     __xor__(self, other)
 
-#### 3.3.1 Reflected arithmetic operators
+#### 3.3.1 Reflected Arithmetic Operators
 
     __radd__(self, other)
     __rsub__(self, other)
@@ -68,7 +68,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __ror__(self, other)
     __rxor__(self, other)
     
-#### 3.3.2 Augmented assignment
+#### 3.3.2 Augmented Assignment
 
     __iadd__(self, other)
     __isub__(self, other)
@@ -84,7 +84,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __ior__(self, other)
     __ixor__(self, other)
     
-#### 3.3.3 Type conversion magic methods
+#### 3.3.3 Type Conversion Magic Methods
 
     __int__(self)
     __long__(self)
@@ -96,7 +96,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __trunc__(self)
     __coerce__(self, other)  # Removed in Python 3.
 
-## 4 Representing your Classes
+## 4 Representing Your Classes
 
     __str__(self)
     __repr__(self)
@@ -113,7 +113,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __getattribute__(self, name)
     
 ## 6 Making Custom Sequences
-### 6.2 The magic behind containers
+### 6.2 The Magic Behind Containers
 
     __len__(self)
     __getitem__(self, key)
@@ -150,7 +150,7 @@ Reference for https://github.com/RafeKettler/magicmethods.
     __deepcopy__(self, memodict)
 
 ## 13 Pickling
-### 13.2 Pickling your own Objects
+### 13.2 Pickling Your Own Objects
 
     __getinitargs__(self)
     __getnewargs__(self)
