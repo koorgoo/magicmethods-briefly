@@ -1,7 +1,7 @@
-============================
-python-magic-methods-briefly
-============================
-Brief reference for https://github.com/RafeKettler/magicmethods.
+=============================
+Python Magic Methods. Briefly
+=============================
+Reference for https://github.com/RafeKettler/magicmethods.
 
 ## 2 Construction and Initialization
 
